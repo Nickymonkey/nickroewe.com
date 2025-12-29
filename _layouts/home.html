@@ -1,0 +1,39 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+</head>
+<body class="home-page">
+  {% include header.html %}
+
+  <!-- Main Content -->
+  <main class="home-main">
+    <div class="home-container">
+      <!-- Left Side - Text Content -->
+      <div class="home-content">
+        <h1 class="main-heading">
+          Hi! I'm <a href="/" class="name">{{ site.title }}</a>
+        </h1>
+        <p class="subtitle">{{ page.subtitle | default: "I am currently working as..." }}</p>
+      </div>
+
+      <!-- Right Side - Image -->
+      <div class="home-image-section">
+        <div class="decorative-circle circle-1"></div>
+        <div class="decorative-circle circle-2"></div>
+        <div class="profile-image-wrapper">
+          <img src="{{ '/assets/images/hero.jpg' | relative_url }}" alt="Hero" class="profile-image">
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+

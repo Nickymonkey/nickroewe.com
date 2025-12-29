@@ -1,0 +1,14 @@
+<!-- Header/Navigation -->
+<header class="home-header">
+  <div class="header-container">
+    <div class="logo">
+      <div class="logo-icon"></div>
+      <a href="/" class="logo-text">{{ site.title }}</a>
+    </div>
+    <nav class="main-nav">
+      <a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="/experience" class="nav-link {% if page.url == '/experience.html' or page.url == '/experience/' %}active{% endif %}">Experience</a>
+    </nav>
+  </div>
+</header>
+
