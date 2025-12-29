@@ -54,7 +54,7 @@ technical_expertise:
 
 Experienced software developer with a strong background in full-stack development, production coordination, and technical education. Currently serving as Software Developer at Partner Engineering & Science, with a proven track record of delivering high-quality solutions across various industries including engineering, entertainment, and government sectors.
 
-## Experiences
+## Experience
 
 <div class="experience-item">
 <h3>Software Developer</h3>
