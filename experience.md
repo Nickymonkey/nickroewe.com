@@ -56,7 +56,7 @@ technical_expertise:
 
 ## About Me
 
-Software engineer with expertise in building scalable production systems and delivering impactful technical solutions. Currently driving platform development at Partner Engineering & Science, where I architect and implement end-to-end features that enhance operational efficiency for 1,000+ users. Proven ability to translate complex business requirements into robust technical implementations.
+Software engineer with 5+ years of experience designing, developing and implementing full stack features in a software development lifecycle. Expertise in building scalable production systems and delivering impactful technical solutions. Currently driving platform development at Partner Engineering & Science, where I architect and implement end-to-end features that enhance operational efficiency for 1,000+ users.
 
 ## Experience
 
