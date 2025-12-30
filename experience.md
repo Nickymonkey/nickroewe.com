@@ -66,7 +66,6 @@ Software engineer with expertise in building scalable production systems and del
 <ul>
 <li>Software Engineer specializing in Ruby on Rails, Vue.js, AWS, and Docker, delivering scalable production systems across Partner's zoning, environmental, construction, energy, and valuation platforms</li>
 <li>Led end-to-end feature development and third-party integrations (Power BI Embedded, Box, Fulcrum, Azure, automated data ingestion), expanding analytics and document access to all clients and internal users at reduced operational cost</li>
-<li>Designed and implemented CI/CD pipelines using GitHub Actions and Docker, reducing production release cycles to ~5 minutes through automated testing and deployment</li>
 <li>Built scalable document management, web scraping, and background processing workflows, eliminating manual steps and significantly improving data consistency and reliability</li>
 <li>Delivered data-driven workflow enhancements for property inspection and reporting tools (Rails, Vue.js), reducing report completion time by 10+ minutes per report and improving efficiency for 1,000+ employees</li>
 </ul>
