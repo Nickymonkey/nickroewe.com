@@ -104,12 +104,19 @@ html:has(body.resume-page) {
   color: #1a1a1a;
   padding: 2rem;
   flex-shrink: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .profile-section {
   text-align: center;
   margin-bottom: 2rem;
   padding-top: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile-img-wrapper {
@@ -123,17 +130,21 @@ html:has(body.resume-page) {
   align-items: center;
   justify-content: center;
   position: relative;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  max-width: 100%;
 }
 
 .profile-img {
-  min-width: 200px;
-  min-height: 200px;
-  width: auto;
+  width: 200px;
   height: auto;
-  max-width: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: 200px;
   max-height: none;
   display: block;
   transform: translateY(15px);
+  box-sizing: border-box;
 }
 
 .profile-section .name {
@@ -522,6 +533,45 @@ html:has(body.resume-page) {
   .experience-header .dates {
     text-align: left;
     margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .resume-sidebar {
+    padding: 1.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+  }
+  
+  .profile-section {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .profile-img-wrapper {
+    width: min(200px, calc(100% - 0px));
+    height: min(200px, calc(100% - 0px));
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+  }
+  
+  .profile-img {
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    width: 200px;
+    height: auto;
   }
 }
 
