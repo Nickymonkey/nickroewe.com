@@ -1,7 +1,7 @@
 ---
 layout: resume
 title: Full Stack Developer
-email: nickroewe@gmail.com
+email: nickroewe@alumni.usc.edu
 social:
   linkedin: "https://www.linkedin.com/in/nicholas-r-070644b6/"
   github: "https://github.com/Nickymonkey"
